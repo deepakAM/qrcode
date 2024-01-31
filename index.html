@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+      section {
+        width: 100%;
+        height: 100%;
+        background-color: hsl(212, 45%, 89%);
+        text-align: center;
+        margin: 30px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #inner-div {
+        /* margin: 40px auto; */
+        width: 20%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 250px;
+
+        background-color: hsl(0, 0%, 100%);
+        border: 2px solid hsl(0, 0%, 100%);
+        border-radius: 5%;
+      }
+      img {
+        margin-top: 5%;
+        width: 90%;
+        height: 60%;
+        border-radius: 5%;
+      }
+      h4 {
+        margin: 20px 10px 10px 10px;
+      }
+      p {
+        margin: 0 10px 10px 10px;
+        font-size: 0.9rem;
+      }
+      @media screen and (max-width: 375px) {
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Improve your front-end skills by building projects Scan the QR code to visit
+    Frontend Mentor and take your coding skills to the next level -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Deepak Mishra</a>.
+    </div>
+    <section id="outer-div">
+      <div id="inner-div">
+        <img src="image-qr-code.png" alt="qr-image" />
+
+        <h4>Improve your front-end skills by building projects.</h4>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
